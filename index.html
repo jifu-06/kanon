@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- swiperのcssファイル -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <!-- swiperのjsファイル -->
+    <script src="/js/swiper-bundle.min.js"></script>
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <title>Kanon</title>
+    <link rel="shortcut icon" href="/img/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="header header_wrap">
+        <div class="logo header_logo">
+            <a href="#"><img src="/img/logo.svg" alt=""></a>
+        </div>
+        <div class="navMenu header_menu">
+            <ul class="menu_ul">
+                <li class="menu_li"><a href="#">ホーム</a></li>
+                <li class="menu_li"><a href="#">私たちについて</a> </li>
+                <li class="menu_li"><a href="#">ギャラリー</a></li>
+                <li class="menu_li"><a href="#">ニュース</a></li>
+                <li class="menu_li"><a href="#">アクセス</a></li>
+                <li class="menu_li"><a href="#">FAQ</a></li>
+                <li class="menu_li"><a href="#">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <div class="boxMenu header_boxMenu">
+            <span class="boxMenu_line"></span>
+            <span class="boxMenu_line"></span>
+            <span class="boxMenu_line"></span>
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="navMenu nav_menu">
+            <ul class="navMenu_ul">
+                <li class="navMenu_li"><a href="#">ホーム</a></li>
+                <li class="navMenu_li"><a href="#">私たちについて</a> </li>
+                <li class="navMenu_li"><a href="#">ギャラリー</a></li>
+                <li class="navMenu_li"><a href="#">ニュース</a></li>
+                <li class="navMenu_li"><a href="#">アクセス</a></li>
+                <li class="navMenu_li"><a href="#">FAQ</a></li>
+                <li class="navMenu_li"><a href="#">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <div class="navImg"><img class="navImg_img" src="/img/nav_img.jpg" alt=""></div>
+        <div class="navBg"></div>
+    </nav>
+    <div class="mainV">
+        <img class="mainV_img1 mainV_img" src="img/mainVisual_1.jpg" alt="">
+        <img class="mainV_img2 mainV_img" src="img/mainVisual_2.jpg" alt="">
+        <img class="mainV_img3 mainV_img" src="img/mainVisual_3.jpg" alt="">
+    </div>
+    <section class="concept concept_wrap">
+        <div class="concept_img"><img src="img/concept.jpg" alt=""></div>
+        <div class="cLetter">
+            <h2 class="cLetter_title">「花の音」</h2>
+            <p class="cLetter_description">花音では、花の持つ繊細な魅力と<br>その存在が放つ静かな音楽を感じることができます。<br>私たちの店で、心の琴線に触れる<br>「花の音」を体験してください。</p>
+            <a class="specific cLetter_specific" href="">Learn About Kanon</a>
+        </div>
+    </section>
+    <!-- gallery -->
+    <section class="gallery">
+        <div class="titles gallery_title"><h2 class="titles_title">GALLERY</h2></div>
+        <div class="gallery_wrapper">
+        <!-- スライダーのメインコンテナ要素（必須） -->
+            <div class="swiper">
+                <!-- スライドを囲む要素（必須） -->
+                <div class="swiper-wrapper">
+                <!-- スライド要素（必須） -->
+                <div class="swiper-slide"><img src="/img/gallary_1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/img/gallary_2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/img/gallary_3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/img/gallary_4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/img/gallary_5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/img/gallary_6.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper-controller">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <a href="#" class="specific swiper_specific">View More Gallery</a>
+            </div>
+        </div>
+    </section>
+    <!-- service -->
+    <section class="services">
+        <div class="titles services_title"><h2 class="titles_title">SERVICE</h2></div>
+        <div class="services_wrapper">
+        <div class="service">
+            <div class="service_img"><img src="img/service_1.jpg" alt=""></div>
+            <div class="serviceText">
+                <h3 class="serviceText_head">花束</h3>
+                <p class="serviceText_body">一つ一つの花を大切に選び、お客様の想いを形にする花束をお作りいたします。<br>特別な日の贈り物や、日常の一コマを彩る花束で、感謝や愛情を伝えてみませんか？</p>
+            </div>
+        </div>
+        <div class="service">
+            <div class="serviceText">
+                <h3 class="serviceText_head">プリザーブドフラワー</h3>
+                <p class="serviceText_body">時を超えて美しさを保つプリザーブドフラワー。<br>自然のままの色と形を長く楽しむことができる特別なアイテムで、<br>永遠の思い出を手元に残しましょう。</p>
+            </div>
+            <div class="service_img"><img src="img/service_2.jpg" alt=""></div>
+        </div>
+        <div class="service">
+            <div class="service_img"><img src="img/service_3.jpg" alt=""></div>
+            <div class="serviceText">
+                <h3 class="serviceText_head">アレンジメント</h3>
+                <p class="serviceText_body">空間を彩るアートとしてのフラワーアレンジメント。<br>お部屋のアクセントやギフトとして、季節やテーマに合わせたオリジナルのアレンジでご提供いたします。</p>
+            </div>
+        </div>
+        </div>
+        <div class="viewMore"><a href="#" class="specific services_specific">View More Services</a></div>
+    </section>
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="titles faq_title"><h2 class="titles_title">FAQ</h2></div>
+        <ul class="faq_block">
+            <li class="faq_item">
+                <button class="faq_head">お店で取り扱っている花は、すべて国産ですか？</button>
+                <div class="faq_body">
+                    <p>当店では国産の花を中心に取り扱っていますが、季節や品種によっては輸入品もございます。<br>特定の産地や品種をお求めの際は、スタッフにお問い合わせください。</p>
+                </div>
+            </li>
+            <li class="faq_item">
+                <button class="faq_head">花の色や種類を指定してオーダーメイドできますか？</button>
+                <div class="faq_body">
+                    <p>はい、お客様のご希望に合わせて、色や種類を指定してオーダーメイドでの制作が可能です。</p>
+                </div>
+            </li>
+            <li class="faq_item">
+                <button class="faq_head">花以外のアクセサリーやリボンの追加は可能ですか？</button>
+                <div class="faq_body">
+                    <p>アクセサリーやリボン、メッセージカードなどの追加や変更も承っております。<br>ご希望のデザインや内容をお知らせください。</p>
+                </div>
+            </li>
+            <li class="faq_item">
+                <button class="faq_head">プリザーブドフラワーはどのくらい持ちますか？</button>
+                <div class="faq_body">
+                    <p>直射日光や湿度の高い場所は避けるなど、適切な環境下では数年から十年以上美しさを保つことができます。</p>
+                </div>
+            </li>
+            <li class="faq_item">
+                <button class="faq_head">定期的に花を届けてもらうサービスはありますか？</button>
+                <div class="faq_body">
+                    <p>定期的な花の配送サービスも承っております。<br>頻度や内容など、詳細はスタッフにお問い合わせください。</p>
+                </div>
+            </li>
+        </ul>
+        <div class="viewMore"><a href="#" class="specific faq_specific">View More FAQ</a></div>
+    </section>
+    <!-- news -->
+    <section class="news">
+        <div class="titles news_title"><h2 class="titles_title">NEWS</h2></div>
+        <div class="news_wrapper">
+        <!-- タブ部分 -->
+            <div class="tabs news_tabs">
+                <button class="tab" data-category="all">すべて</button>
+                <button class="tab" data-category="news">お知らせ</button>
+                <button class="tab" data-category="blog">ブログ</button>
+                <button class="tab" data-category="event">イベント</button>
+            </div>
+            
+            <!-- お知らせ内容 -->
+            <div class="content news_content">
+                <div class="content_item news"> <a href="#">お客様の声コーナー新設！ご意見・ご感想をお待ちしております</a></div>
+                <div class="content_item blog"> <a href="#">ブログ更新「季節の移り変わりとともに：秋の花々の魅力」</a></div>
+                <div class="content_item event"><a href="#">7/7（水）七夕の短冊飾りイベント：お花で願いを込めて</a></div>
+                <div class="content_item news"> <a href="#">会員様限定！特別割引キャンペーン開催中</a></div>
+                <div class="content_item blog"> <a href="#">ブログ更新「花束のアレンジ術：初心者でも簡単にできるテクニック」</a></div>
+                <div class="content_item event"><a href="#">6/20（日）父の日ギフトフェア開催！</a></div>
+                <div class="content_item news"> <a href="#">ゴールデンウィークの営業時間変更のお知らせ</a></div>
+                <div class="content_item blog"> <a href="#">ブログ更新「今月のおすすめ花：ダリアの魅力に迫る」</a></div>
+                <div class="content_item event"><a href="#">5/5（水）こどもの日特別ワークショップ</a></div>
+                <div class="content_item news"> <a href="#">新入荷！春の花々を店頭にて展示開始</a></div>
+                <div class="content_item blog"> <a href="#">ブログ更新「バラの手入れ方法：長持ちさせるコツを公開」</a></div>
+                <div class="content_item event"><a href="#">4/10（土）春のフラワーアレンジメント教室開催</a></div>
+                <!-- ... 他の内容も追加 ... -->
+            </div>
+        </div>
+        <div class="viewMore"><a href="#" class="specific news_specific">View More News</a></div>
+    </section>
+    <section class="contact">
+        <div class="titles contact_title"><h2 class="titles_title">CONTACT</h2></div>
+        <div class="contact_description"><p>Kanonは結婚式でのフラワーアレンジメントからお花の定期便など<br>お客様のご要望に合わせた柔軟なご提案をいたします<br>お気軽にご相談ください。</p></div>
+        <div class="viewMore"><a href="#" class="specific contact_specific">Contact Us</a></div>
+    </section>
+    <footer>
+        <div class="footer_wrapper">
+            <div class="logo footer_logo">
+                <img src="/img/logo.svg" alt="">
+            </div>
+            <p class="copyright">©︎Kanon. All Right Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
